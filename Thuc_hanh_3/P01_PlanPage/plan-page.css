@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url(images/plan-page.jpg);
+    color: #fff;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 16px;
+    font-family: Lato, sans-serif; 
+    background-size: cover;
+}
+section{
+    margin-top: 80px;   
+    text-align: center;
+}
+section article{
+    width: calc(33.33% - 60px);
+    float: left;
+    margin: 0 20px;
+    padding: 10px 5px;
+    background-color:#262626;
+    border: 5px solid #424242;
+    color:  #a1a1a1;
+}
+section article ul{
+    list-style: none;
+}
+article h1{
+    color:#fff;
+    font-size: 1.5em;
+    padding: 0 0 20px;
+}
+p.price{
+    font-size: 3em;
+    color: #27dcc4;
+    font-weight: bold;
+    padding: 1em 0;
+    text-align: center;
+}
+section article ul li{
+    padding: 5px 0;
+}
+article button{
+    padding: 5px 15px;
+    margin-top: 15px;
+    font-size:0.9em;
+    background-color: #27dcc4;
+    border: none;
+    color: #fff;
+}
+article button:hover{
+    background-color:  #ACACAC;
+}
